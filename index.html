@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="nav-toggle" onclick="toggleNavbar()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About</a>
+            <a href="portfolio.html">Portfolios</a>
+            <a href="contacts.html" class="contact-me">Contact Me</a>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          </div>
+    </div>
+
+
+
+<!-- Content Area -->
+
+<div class="container">
+    <img class="homepage" src="imgs/space.jpg" width="300" height="auto" style="max-height: 400px;">
+    
+    <div class="content">
+        <h1>I've created this page to showcase my portfolio of work from my years of studying Graphic Design. I hope you enjoy my works as much as I enjoyed making them</h1>
+    </div>
+<!-- Button Container -->
+<div class="button-container">
+    <button onclick="window.location.href='aboutme.html'">More About Me</button>
+</div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </div>
+
+      <!-- JS-->
+      <script src="script.js"></script>
+    
+
+</body>
+</html>
